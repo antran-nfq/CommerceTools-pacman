@@ -7,12 +7,12 @@ body {
 #unity-container { position: absolute }
 #unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
 #unity-container.unity-mobile { width: 100%; height: 100% }
-#unity-canvas { background: #231F20 }
+#unity-canvas { background: white }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
-#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
-#unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
-#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
-#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
+#unity-loading-bar { text-align:center; position: absolute; left: 50%; top: 45%; transform: translate(-50%, -50%); display: none }
+#unity-logo { display:inline-block; width: 75px; height: 75px; background: url('commercetools-logo-outline.jpeg') no-repeat center; background-size: contain; }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-light.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-light.png') no-repeat center }
 #unity-footer { position: relative; margin-top: 15px; }
 .unity-mobile #unity-footer { display: none }
 #unity-webgl-logo { float:left; width: 250px; height: 44px; background: url('commercetools-logo.png') no-repeat left; background-size: contain; }
